@@ -18,9 +18,9 @@ const materials = [
   new THREE.MeshBasicMaterial({ map: loader.load('assets/img/woodSide.webp'),
     color: 0x80C96A
   }),
-  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highfive.png') }),
-  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highfive.png') }),
-  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highfive.png') }),
+  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highFive.png') }),
+  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highFive.png') }),
+  new THREE.MeshBasicMaterial({ map: loader.load('assets/img/highFive.png') }),
   new THREE.MeshBasicMaterial({ map: loader.load('assets/img/diamant2.jpg') })
 ]
 
