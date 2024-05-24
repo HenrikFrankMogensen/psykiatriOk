@@ -10,6 +10,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.149.0/build/three.module.js"
+      }
+    }
+    </script>
+
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
@@ -42,7 +50,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 style="padding: 40px 20px 0px 0px;">
-                        <picture><img data-bs-toggle="tooltip" data-bss-tooltip="" src="assets/img/highFive.png" style="padding: 40px 40px 40px 40px;" alt="Vi løfter i flok"></picture><br>Vi løfter i flok...<br><br>Vores formål
+                        <picture><canvas id="canvas"></canvas><!--<img data-bs-toggle="tooltip" data-bss-tooltip="" src="assets/img/highFive.png" style="padding: 40px 40px 40px 40px;" alt="Vi løfter i flok">--></picture><br>Vi løfter i flok...<br><br>Vores formål
                     </h2>
                     <p class="text-start">At medvirke til at støtte og skabe aktivitetstilbud/arrangementer til psykisk sårbare i Center for Psykiatri i Holstebro Kommune, i samarbejde med Centrets ledelse, brugere, personale og pårørende.</p>
                     <p class="text-start" style="margin: 0px 0px 85px;">For at realisere disse aktivitetstilbud/arrangementer, kan man ansøge om paragraf 18 midler ved Psykiatriens Venner. I Center for Psykiatri, bliver der sendt en mail rundt ift. ansøgningsfrist.</p>
@@ -64,7 +72,7 @@
                     <p class="text-start">Et års medlemskab koster 50,00 kr. og det kan indbetales via overførsel til: Nordea Bank: 9585 6273 572 560 eller via MobilePay til mobil nummer: 3023 6229 (Tina Væggemose)</p>
                     <p class="text-start">Ved indbetaling skal du sørge for at opgive navn, adresse samt mailadresse. Du kan sende en SMS til Tina Væggemose på nummeret 3023 6229, med disse oplysninger.</p>
                     <h2 class="text-start" style="margin: 85px 0px 35px;">Indbetaling af midler til Psykiatriens Venner</h2>
-                    <p class="text-start">Hvis du vil donere et beløb er der muligheden MobilePay:<br>3023 6229 (Tina Væggemose).<br>Du kan også overføre penge via Nordea Bank:<br>9585 6273 572 560<br><br>Du kan sende en SMS til Tina Væggemose på nummeret 3023 6229, hvor du skriver hvor meget du indbetaler og din e-mail-adresse.</p>
+                    <p class="text-start">Hvis du vil donere et beløb er der muligheden MobilePay:<br>3023 6229 (Tina Væggemose).<br>Du kan også overføre penge via Nodea Bank:<br>9585 6273 572 560<br><br>Du kan sende en SMS til Tina Væggemose på nummeret 3023 6229, hvor du skriver hvor meget du indbetaler og din e-mail-adresse.</p>
                     <p class="text-start"></p>
                 </div>
             </div>
@@ -118,6 +126,8 @@
             <p>Copyright © HFM-Data</p>
         </div>
     </footer>
+    
+    <script type="module" src="assets/js/logoRotate.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
