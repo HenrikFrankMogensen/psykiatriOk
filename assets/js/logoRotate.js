@@ -7,7 +7,7 @@ const renderer = new THREE.WebGLRenderer({
   antialias: true,
   canvas: document.querySelector('#canvas') 
 });
-renderer.setSize( 400, 400 );
+renderer.setSize( 350, 350 );
 camera.aspect = 1
 camera.updateProjectionMatrix()
 const loader = new THREE.TextureLoader()
@@ -24,13 +24,13 @@ const materials = [
   new THREE.MeshBasicMaterial({ map: loader.load('assets/img/diamant2.jpg') })
 ]
 
-const geometry = new THREE.BoxGeometry( 1, 1, 1 ); 
+const geometry = new THREE.BoxGeometry( 1.2, 1.2, 1.2 ); 
 const material = new THREE.MeshBasicMaterial( {color: 0xffffff} ); 
 const cube = new THREE.Mesh( geometry, materials ); 
 scene.add( cube );
 cube.position.z = 0
 camera.position.z = 8
-cube.position.y = -0.4
+cube.position.y = -0.3
 cube.rotation.x = 0
 cube.rotation.y = 5
 
