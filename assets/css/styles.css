@@ -1,0 +1,85 @@
+#top-header {
+  background-image: url("../../assets/img/intro-bg.jpg");
+}
+
+#top-heading {
+  margin: 0px 0px 0px;
+}
+
+#top-paragraph1 {
+  margin: 0px 0px 0px;
+}
+
+#top-paragraph2 {
+  padding: 0px;
+  font-size: 30px;
+}
+
+#heading-logo {
+  padding: 40px 20px 0px 0px;
+}
+
+#logo-image {
+  padding: 40px 40px 40px 40px;
+}
+
+#formaal-paragraph2 {
+  margin: 0px 0px 85px;
+}
+
+#stoettes {
+  padding: 0px 0px 0px 0px;
+}
+
+#list1 {
+  margin: 0px 0px 0px 20px;
+}
+
+#medlem {
+  margin: 85px 0px 35px;
+}
+
+#betaling {
+  margin: 85px 0px 35px;
+}
+
+#download {
+  background-image: url("../../assets/img/downloads-bg.jpg");
+}
+
+#list2 {
+  margin: 0px 0px 0px 20px;
+}
+
+#e-mail {
+  background: var(--bs-emphasis-color);
+}
+
+#bg-e-mail {
+  color: var(--bs-body-bg);
+}
+
+#name-2 {
+  font-family: Cabin, sans-serif;
+}
+
+#email-2 {
+  font-family: Cabin, sans-serif;
+}
+
+#message-2 {
+  font-family: Cabin, sans-serif;
+}
+
+#send-button {
+  font-family: Cabin, sans-serif;
+}
+
+#kontakt {
+  padding: 20px;
+}
+
+#diamant-image {
+  padding: 0px 0px 10px 10px;
+}
+
