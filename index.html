@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script type="importmap">
     {
@@ -27,29 +28,32 @@
       }
     }
     </script>
-
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand" href="#">Psykiatriens Venner</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item nav-link"><a class="nav-link active" href="#about">Formål</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="#download">Område</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="#contact">Kontakt</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <header id="top-header" class="masthead">
         <div class="intro-body">
+            <section class="navbar1">
+                <div class="logo"><a class="link" href="#">Psykiatriens Venner</a></div>
+                <div class="hamburger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <nav class="nav-bar">
+                    <ul>
+                        <li><a class="link" href="#about">FORMÅL</a></li>
+                        <li><a class="link" href="#omraade">OMRÅDE</a></li>
+                        <li><a class="link" href="#contact">KONTAKT</a></li>
+                    </ul>
+                </nav>
+            </section>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 id="top-heading" class="brand-heading">Psykiatriens Venner</h1>
                         <p id="top-paragraph1" class="intro-text">i</p>
-                        <p id="top-paragraph2" class="intro-text">Holstebro Kommune</p><a class="btn btn-link btn-circle" role="button" href="#about" alt="Show more" title="Vis mere"><i class="fa fa-angle-double-down"></i></a>
+                        <p id="top-paragraph2" class="intro-text">Holstebro Kommune</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down"></i></a>
                     </div>
                 </div>
             </div>
@@ -83,7 +87,7 @@
                     <p class="text-start">Ved indbetaling skal du sørge for at opgive navn, adresse samt mailadresse. Du kan sende en SMS til Tina Væggemose på nummeret 3023 6229, med disse oplysninger.</p>
                     <h2 class="text-start" id="betaling">Indbetaling af midler til Psykiatriens Venner</h2>
                     <p class="text-start">Hvis du vil donere et beløb er der muligheden MobilePay:<br>3023 6229 (Tina Væggemose).<br>Du kan også overføre penge via Nordea Bank:<br>9585 6273 572 560<br><br>Du kan sende en SMS til Tina Væggemose på nummeret 3023 6229, hvor du skriver hvor meget du indbetaler og din e-mail-adresse.</p>
-                    <p class="text-start"></p>
+                    <p class="text-start" id="omraade"></p>
                 </div>
             </div>
         </div>
@@ -97,11 +101,42 @@
                     <li class="text-start">At støtte eller tage initiativ til aktiviteter og arrangementer i samarbejde med beboere/brugere/brugerråd og personale.</li>
                     <li class="text-start">At støtte eller tage initiativ til aktiviteter og arrangementer udenfor tilbuddene i samarbejde med personalet.</li>
                 </ul>
-                <p>:&nbsp;&nbsp;</p><a href="https://henrikfrankmogensen.github.io/henrik/mars/index.html" alt="Visit HFM-Data's website"><button class="btn btn-primary btn-lg btn-default" type="button">website&nbsp; hfmdata</button></a>
+                <p>:&nbsp;&nbsp;</p><a href="https://henrikfrankmogensen.github.io/henrik/mars/index.html"><button class="btn btn-primary btn-lg btn-default" type="button">website&nbsp; hfmdata</button></a>
             </div>
         </div>
     </section>
     <section class="text-center content-section" id="contact">
+        <h1>Kontakt</h1>
+        <p>Bestyrelsen for Psykiatriens Venner</p>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><img class="portraet" src="assets/img/annkathrinekvistgaardfihl.png">
+                        <p>Sekretær:<br>Ann Kathrine Kvistgaard Fihl</p>
+                    </div>
+                    <div class="col"><img class="portraet" src="assets/img/oleandersen.png">
+                        <p>Formand:<br>Ole Andersen</p>
+                    </div>
+                    <div class="col"><img class="portraet" src="assets/img/janspangsberg.png">
+                        <p>Bestyrelsesmedlem:<br>Jan Spangsberg</p>
+                    </div>
+                    <div class="col"><img class="portraet" src="assets/img/joernmoelgaard.png">
+                        <p>Bestyrelsesmedlem:<br>Jørn Mølgaard</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col"><img class="portraet" src="assets/img/tinavæggemose.png">
+                        <p>Kasserer:<br>Tina Væggemose</p>
+                    </div>
+                    <div class="col"><img class="portraet" src="assets/img/irmasidelmann.png">
+                        <p>1. Suppleant:<br>Irma Sidelmann</p>
+                    </div>
+                    <div class="col"><img class="portraet" src="assets/img/andersjoergenjensen.png">
+                        <p>2. Suppleant:<br>Anders Jørgen Jensen</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class="position-relative py-4 py-xl-5">
             <div class="container position-relative">
                 <div class="row d-flex justify-content-center">
@@ -110,8 +145,8 @@
                             <div class="card-body p-sm-5" id="e-mail">
                                 <h2 class="text-center mb-4" id="bg-e-mail">Send E-mail</h2>
                                 <form data-bss-recipient="42e7727e0501ab0427bfbc10c6903ed5">
-                                    <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Navn" required="" autocomplete="name"></div>
-                                    <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email" required="" autocomplete="email"></div>
+                                    <div class="mb-3"><input class="form-control" type="text" id="name-2" name="name" placeholder="Navn" required="" autocomplete="on"></div>
+                                    <div class="mb-3"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email" required="" autocomplete="0n"></div>
                                     <div class="mb-3"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Besked" required=""></textarea></div>
                                     <div><button class="btn btn-outline-primary btn-lg text-start d-block w-100" id="send-button" type="submit">Send </button></div>
                                 </form>
@@ -122,17 +157,15 @@
             </div>
         </section>
         <div class="col-lg-8 mx-auto" id="kontakt">
-            <h2 class="text-start">kontakt</h2>
             <p class="text-start">Kontakt gennem Center for Psykiatri, Holstebro Kommune</p>
-            <picture><img class="img-fluid float-end" id="diamant-image" src="assets/img/diamant2.jpg" width="150px" alt="Diamanten"></picture>
+            <picture><img class="img-fluid float-end" id="diamant-image" src="assets/img/diamant2.jpg" width="150px"></picture>
             <p class="text-start">Ann Kathrine Kvistgaard Fihl (sekretær i<br>Psykiatriens Venner)</p>
             <p class="text-start">E-mail.: Akf.medborgerskab@holstebro.dk</p>
             <p class="text-start">Telefon: 5148 9813</p>
         </div>
     </section>
-    <div></div>
     <footer>
-        <div class="container text-center">
+        <div class="container text-center" id="omos">
             <p>Copyright © HFM-Data</p>
         </div>
     </footer>
@@ -140,7 +173,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/grayscale.js"></script>
+    <script src="assets/js/navbar.js"></script>
 </body>
 
 </html>
