@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  list-style: none;
+  /*list-style: none;*/
   text-decoration: none;
   font-family: "Verdana";
   box-sizing: border-box;
@@ -124,5 +124,9 @@
 
 .link {
   color: white;
+}
+
+.no-bullet {
+  list-style: none;
 }
 
